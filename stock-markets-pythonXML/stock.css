@@ -1,0 +1,84 @@
+body {
+    font-family:Verdana;
+}
+
+font{
+    font-size: 40px;
+}
+div.header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    font-family: "Times New Roman";
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: left;
+  width: 15%;
+  height: 500px;
+  position: relative;
+  left: 2%;
+  transition: transform .2s;
+}
+
+div.gallery:hover {
+    transform: scale(1.07);
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    right: 5%;
+    border: 1px;
+    border-color: #000000;
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+}
+.winner {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #a0eba2;
+    float: left;
+    margin-left: 10%;
+}
+
+.loser{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #e693a6;
+    float: right;
+    margin-right: 10%;
+}
+
+.sp{
+    height: 160px;
+    width: 320px;
+    margin-left: 9%;
+}
+.topcharts{
+    border-radius: 10px;
+    width: 100%;
+    height: 10%;
+
+}
+.data {
+    background-color: #cedcf2;
+    border-radius: 10px;
+}
